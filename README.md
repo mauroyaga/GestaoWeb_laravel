@@ -1,3 +1,38 @@
+## Atividade Avaliativa AV2
+
+**3° SEM do curso de Análise e Desenvolvimento de Sistemas
+Senac -Pr Maringá**
+
+Disciplina: Tecnologias para internet
+A atividade é baseada no conteúdo visto nas ultimas aulas (lavrável) onde o
+objetivo é realizar um mini sistema de cadastro de fornecedor e produtos. Os
+objetivos da atividade são:
+
+1. Iniciar um projeto em laravel na pasta Documetos\Code com o nome: Gestao_Web_Atividade
+2. Realizar a estruturação do projeto em laravel.
+3. Realização da criação das rotas, controladores, views, formulários e migrations.
+4. Necessário a criação do banco de dados em mysql contendo as seguintes informações:
+
+-   Em cadastro de fornecedores utilizar os campos
+    • Nome do fornecedor;
+    • CNPJ;
+    • Endereço;
+    • CEP;
+-   Em cadastro de produtos utilizar os campos:
+    • Nome do produto;
+    • Validade;
+    • Código de barra;
+    • Estoque;
+
+1. O cadastro de Fornecedores e Produtos precisam ser realizados através
+   de formulários.
+
+
+
+---
+
+**Documentação Laravel**
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
@@ -11,13 +46,13 @@
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+-   [Simple, fast routing engine](https://laravel.com/docs/routing).
+-   [Powerful dependency injection container](https://laravel.com/docs/container).
+-   Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+-   Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+-   Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+-   [Robust background job processing](https://laravel.com/docs/queues).
+-   [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
@@ -31,35 +66,35 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
+-   **[Vehikl](https://vehikl.com/)**
+-   **[Tighten Co.](https://tighten.co)**
+-   **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+-   **[64 Robots](https://64robots.com)**
+-   **[Cubet Techno Labs](https://cubettech.com)**
+-   **[Cyber-Duck](https://cyber-duck.co.uk)**
+-   **[British Software Development](https://www.britishsoftware.co)**
+-   **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+-   **[DevSquad](https://devsquad.com)**
+-   [UserInsights](https://userinsights.com)
+-   [Fragrantica](https://www.fragrantica.com)
+-   [SOFTonSOFA](https://softonsofa.com/)
+-   [User10](https://user10.com)
+-   [Soumettre.fr](https://soumettre.fr/)
+-   [CodeBrisk](https://codebrisk.com)
+-   [1Forge](https://1forge.com)
+-   [TECPRESSO](https://tecpresso.co.jp/)
+-   [Runtime Converter](http://runtimeconverter.com/)
+-   [WebL'Agence](https://weblagence.com/)
+-   [Invoice Ninja](https://www.invoiceninja.com)
+-   [iMi digital](https://www.imi-digital.de/)
+-   [Earthlink](https://www.earthlink.ro/)
+-   [Steadfast Collective](https://steadfastcollective.com/)
+-   [We Are The Robots Inc.](https://watr.mx/)
+-   [Understand.io](https://www.understand.io/)
+-   [Abdel Elrafa](https://abdelelrafa.com)
+-   [Hyper Host](https://hyper.host)
+-   [Appoly](https://www.appoly.co.uk)
+-   [OP.GG](https://op.gg)
 
 ## Contributing
 
